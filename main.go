@@ -28,7 +28,7 @@ func main() {
   "port": 3306,
   "db": "gin_blog",
   "username": "root",
-  "password": "wxlzs999"
+  "password": "root"
 },
 "redis": {
   "host": "127.0.0.1",

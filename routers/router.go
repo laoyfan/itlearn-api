@@ -26,10 +26,10 @@ func SetupRouter() *gin.Engine {
 	})
 
 	// 配置静态文件
-	r.Static("/static", "static")
+	//r.Static("/static", "static")
 
 	// 配置模板
-	r.LoadHTMLGlob("views/*")
+	//r.LoadHTMLGlob("views/*")
 
 	// 设置session   和中间件middleware
 	store, _ := redis.NewStore(10, "tcp", "127.0.0.1:6379", "", []byte("secret"))
